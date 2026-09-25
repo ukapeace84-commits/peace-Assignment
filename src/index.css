@@ -84,9 +84,154 @@ color: #fff;
     transition: 1s;
 }
 
-@media(max-width: 700px){
-    .text-box{
-        font-size: 20px;
+/* -------- Responsive Design -------- */
+@media (max-width: 700px) {
+
+    nav {
+        padding: 5% 5%;
+        flex-direction: column;
+    }
+
+    nav img {
+        width: 100px;
+    }
+
+    .nav-links {
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .nav-links ul li {
+        display: block;
+        padding: 8px;
+    }
+
+    .text-box {
+        width: 90%;
+    }
+
+    .text-box h1 {
+        font-size: 35px;
+    }
+
+    .text-box p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .text-box p br {
+        display: none;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .Course,
+    .Campus,
+    .Facilities,
+    .Testimonials {
+        width: 90%;
+        padding-top: 50px;
+    }
+
+    .Course-col,
+    .Campus-col,
+    .Facilities-col,
+    .Testimonials-col {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .Testimonials .row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .cta {
+        width: 90%;
+        padding: 70px 20px;
+        box-sizing: border-box;
+    }
+
+    .cta h1 {
+        font-size: 25px;
+    }
+}
+/* -------- Responsive Design -------- */
+@media (max-width: 700px) {
+
+    nav {
+        padding: 5% 5%;
+        flex-direction: column;
+    }
+
+    nav img {
+        width: 100px;
+    }
+
+    .nav-links {
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .nav-links ul li {
+        display: block;
+        padding: 8px;
+    }
+
+    .text-box {
+        width: 90%;
+    }
+
+    .text-box h1 {
+        font-size: 35px;
+    }
+
+    .text-box p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .text-box p br {
+        display: none;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .Course,
+    .Campus,
+    .Facilities,
+    .Testimonials {
+        width: 90%;
+        padding-top: 50px;
+    }
+
+    .Course-col,
+    .Campus-col,
+    .Facilities-col,
+    .Testimonials-col {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .Testimonials .row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .cta {
+        width: 90%;
+        padding: 70px 20px;
+        box-sizing: border-box;
+    }
+
+    .cta h1 {
+        font-size: 25px;
     }
 }
 

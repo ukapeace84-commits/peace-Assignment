@@ -16,7 +16,11 @@ const UniversityWebsite = () => {
               <li><a href="">CONTACT</a></li>
             </ul>
           </div>
-          
+          <div className="menu-icon" onClick={() => setMenuOpen(true)}>
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+          </div>
         </nav>
         <h1>Our courses</h1>
         <div className="text-box">

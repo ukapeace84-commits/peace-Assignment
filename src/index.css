@@ -418,6 +418,19 @@ h1{
         margin-top: 20px;
         font-weight: 600;
      }
+     @media (max width: 700px){
+        .menue-icon {
+            display: block;
+            cursor: pointer;
+            padding: 50px;
+        }
+     }
+     .menu-icon .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 4px 0;
+     }
      
      
      

@@ -7,7 +7,8 @@ const UniversityWebsite = () => {
       <section className="header">
         <nav>
           <a href="peace.html"></a><img src="/pb.logo.png" alt="Logo" />
-          <div className="nav-links">
+         <div className={`nav-links ${menuOpen ? "open" : ""}`}>
+          <span className="menu-close" onClick={() => setMenuOpen(false)}>x</span>
             <ul>
               <li><a href="">HOME</a></li>
               <li><a href="">ABOUT</a></li>
@@ -16,6 +17,7 @@ const UniversityWebsite = () => {
               <li><a href="">CONTACT</a></li>
             </ul>
           </div>
+          <span className="menu-icon" onClick={() => setMenuOpen(true)}>&#9776</span>
         </nav>
         <h1>Our courses</h1>
         <div className="text-box">

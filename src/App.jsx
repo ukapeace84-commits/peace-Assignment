@@ -1,6 +1,7 @@
 import React from 'react';
 
 const UniversityWebsite = () => {
+  const [menuOpen, setMenuOpen] =useState(false);
   return (
     <div>
       <section className="header">
